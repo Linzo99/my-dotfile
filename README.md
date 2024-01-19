@@ -1,6 +1,8 @@
 # Dotfiles: Neovim & Tmux Configuration
 
 These are my personal dotfiles for Neovim and Tmux. These configurations are tailored to enhance my development environment and productivity.
+![lazyvim](images/img2.png)
+![tmux](images/img1.png)
 
 ## Neovim Configuration
 
@@ -14,7 +16,7 @@ These are my personal dotfiles for Neovim and Tmux. These configurations are tai
 1. Clone this repository:
 
    ```bash
-   git clone <https://github.com/Linzo99/dotfiles.git> ~/.dotfiles
+   git clone <https://github.com/Linzo99/my-dotfile.git> ~/.dotfiles
 
    ```
 
