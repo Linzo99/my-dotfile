@@ -1,0 +1,1 @@
+-- Turn off paste mode when leaving insert
