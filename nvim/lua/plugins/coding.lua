@@ -21,24 +21,6 @@ return {
 		config = true,
 	},
 
-	-- Refactoring tool
-	{
-		"ThePrimeagen/refactoring.nvim",
-		keys = {
-			{
-				"<leader>r",
-				function()
-					require("refactoring").select_refactor()
-				end,
-				mode = "v",
-				noremap = true,
-				silent = true,
-				expr = false,
-			},
-		},
-		opts = {},
-	},
-
 	-- Go forward/backward with square brackets
 	{
 		"echasnovski/mini.bracketed",
@@ -93,5 +75,11 @@ return {
 		opts = function(_, opts)
 			table.insert(opts.sources, { name = "emoji" })
 		end,
+	},
+	{
+		"barrett-ruth/live-server.nvim",
+		build = "pnpm add -g live-server",
+		cmd = { "LiveServerStart", "LiveServerStop" },
+		config = true,
 	},
 }
